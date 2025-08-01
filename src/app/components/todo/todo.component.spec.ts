@@ -54,7 +54,7 @@ describe('TodoComponent', () => {
   });
 
   it('devrait supprimer une tâche', () => {
-    component.deleteTodo(1);
+    component.deleteTodo(10);
     expect(mockTodoService.deleteTodo).toHaveBeenCalledWith(1);
   });
 });
